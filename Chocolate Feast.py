@@ -8,7 +8,7 @@ import sys
 
 # Complete the chocolateFeast function below.
 def chocolateFeast(n, c, m):
-    choco = int(n / c)
+    choco = n // c
     if choco >= m:
         wrapper = choco
         while wrapper > 0:
