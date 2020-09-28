@@ -8,8 +8,7 @@ import sys
 
 # Complete the jumpingOnClouds function below.
 def jumpingOnClouds(c, k):
-    start = 0
-    nex = (start+k) % len(c)
+    nex = k % len(c)
     point = 0
 
     while nex != 0:
